@@ -1,7 +1,7 @@
 //Mypage web app 
 
 const http = require('http');
-const port = 3000;
+const port = 8000;
 
 
 const server = http.createServer((req, res) => {
@@ -24,5 +24,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, () => {
-  console.log('Server running at http://localhost:3000');
+  console.log('Server running at http://localhost:8000');
 });
