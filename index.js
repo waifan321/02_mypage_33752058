@@ -1,4 +1,4 @@
-// MyPage Web App - Casino Theme
+// MyPage Web App - Casino Theme (No Blackjack)
 
 const http = require('http');
 const port = 8000;
@@ -108,30 +108,7 @@ const server = http.createServer((req, res) => {
           <div class="chip">100</div>
           <div class="chip">500</div>
         </div>
-        <button
-          id="goBtn"
-          style="
-            margin-top: 30px;
-            padding: 15px 40px;
-            font-size: 1.3em;
-            font-weight: bold;
-            color: #fff;
-            background: linear-gradient(90deg, #ff0000 60%, #ffd700 100%);
-            border: none;
-            border-radius: 12px;
-            box-shadow: 0 0 15px #ff0000;
-            cursor: pointer;
-            transition: background 0.2s, transform 0.2s;
-          "
-        >
-          GO TO BLACKJACK
-        </button>
         <footer>© 2025 Wai Fan's Casino</footer>
-        <script>
-          document.getElementById('goBtn').onclick = function() {
-            window.location.href = 'blackjack.js';
-          };
-        </script>
       </body>
     </html>
   `);
