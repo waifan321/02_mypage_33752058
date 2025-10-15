@@ -1,4 +1,4 @@
-// MyPage Web App - Casino Theme (No Blackjack)
+// MyPage Web App - Casino Theme
 
 const http = require('http');
 const port = 8000;
